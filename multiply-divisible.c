@@ -10,14 +10,15 @@ int main()
     {
         scanf("%d",arr[i]);
     }
-    int sum=1;
+    int product=1;
     for(int i=0;i<n;i++)
     {
         if(arr[i]%2==0&&arr[i]%4!=0)
         {
-            sum*=arr[i];
+            product*=arr[i];
         }
     }
-    printf("sum=%d",sum);
+    printf("product=%d",product);
     return 0;
 }
+
